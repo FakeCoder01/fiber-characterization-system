@@ -1,0 +1,29 @@
+hardware:
+  laser:
+    visa_address: GPIB0::12::INSTR
+    min_wavelength: 1500
+    max_wavelength: 1600
+  detector:
+    visa_address: GPIB0::15::INSTR
+    sampling_rate: 1000
+
+analysis:
+  image:
+    core_threshold: 0.8
+    cladding_threshold: 0.4
+  signal:
+    fft_window: 1024
+    attenuation_model: exponential
+
+ui:
+  refresh_rate: 1000
+  theme: darkly
+    
+acquisition:
+  interval: 0.1
+  sampling_rate: 1000
+
+sweep:
+  start: 1500
+  end: 1600
+  steps: 100
