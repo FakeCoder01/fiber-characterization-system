@@ -12,6 +12,13 @@ A system for automated characterization of optical fibers, measuring attenuation
 7. [Usage](#usage)
 8. [Results](#results)
 
+----
+### Demo & Screenshots
+
+![Sceenshot](https://github.com/user-attachments/assets/29c7f06f-2ad2-4e55-b0a1-5fc9ba52a9ee)
+<video src="https://github.com/user-attachments/assets/c9e06946-06a4-46e9-a20b-86371c6b175e" title="Demo video"></video>
+
+----
 ## System Architecture
 
 ```mermaid
